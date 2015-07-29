@@ -16,7 +16,9 @@ ONBUILD COPY . /usr/src/app
 #
 # Install Mail Utils
 #
-RUN apt-get -y install mailutils
+RUN apt-get -y install \
+    mailutils \
+    ssmtp
 
 #
 # Install mongo
