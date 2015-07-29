@@ -16,7 +16,7 @@ ONBUILD COPY . /usr/src/app
 #
 # Install Mail Utils
 #
-RUN apt-get -y install \
+RUN apt-get install -y \
     mailutils \
     ssmtp
 
