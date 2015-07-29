@@ -1,2 +1,2 @@
 # docker-ruby-mongo
-A standalone docker image containing ruby 2.1 and mongodb 2.2.7
+A standalone docker image containing ruby 2.1 and mongodb 2.2.7 for mesos

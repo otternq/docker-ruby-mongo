@@ -14,6 +14,11 @@ ONBUILD RUN bundle install
 ONBUILD COPY . /usr/src/app
 
 #
+# Install Mail Utils
+#
+RUN apt-get -y install mailutils
+
+#
 # Install mongo
 #
 
